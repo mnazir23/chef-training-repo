@@ -4,4 +4,4 @@ phases:
   install:
     commands:
       - apt-get update
-      - apt-get install nodejs
+      - apt-get install nodejs -y
