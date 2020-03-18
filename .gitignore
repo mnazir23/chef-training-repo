@@ -1,8 +1,5 @@
 # Chef
-.chef/*.pem
-.chef/ca_certs/*.pem
-.chef/encrypted_data_bag_secret
-
+.chef/
 # Ruby
 .rake_test_cache
 .rvmrc
