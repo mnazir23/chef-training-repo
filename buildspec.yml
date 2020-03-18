@@ -13,5 +13,5 @@ phases:
       - pwd
       - cd chef-training-repo/
       - ls -a
-      - aws s3 cp --recursive s3://chef-training-bucket/.chef .
+      - aws s3 cp --recursive s3://chef-training-bucket/.chef .chef/
       - knife cookbook upload apache --force
