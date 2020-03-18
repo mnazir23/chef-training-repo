@@ -4,4 +4,4 @@
 #
 # Copyright:: 2020, The Authors, All Rights Reserved.
 
-package 'apache'
+package 'apache2'
