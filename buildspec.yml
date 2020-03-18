@@ -5,3 +5,9 @@ phases:
     commands:
       - apt-get update
       - apt-get install nodejs -y
+      - wget https://packages.chef.io/files/stable/chefdk/4.7.73/debian/9/chefdk_4.7.73-1_amd64.deb
+      - dpkg -i chefdk_4.7.73-1_amd64.deb
+      - chef-client -v
+      - git clone https://github.com/mnazir23/chef-training-repo.git
+      - cd chef-training-repo
+      - ls
