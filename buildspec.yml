@@ -12,3 +12,4 @@ phases:
       - git clone https://github.com/mnazir23/chef-training-repo.git
       - cd chef-training-repo/
       - ls -a
+      - knife cookbook upload apache
